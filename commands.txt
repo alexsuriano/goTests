@@ -1,0 +1,6 @@
+go test ./...					===	Test all files
+go test calculator.go				===	Test file calculator.go
+go test -cover ./...				===	Test all files showing test coverage percentage
+go test -coverprofile=coverage.out ./...	===	Test all files and create a resume of test by test named coverage.out
+go tool cover -html=coverage.out		===	Show the resume file "coverage.out" in html
+
